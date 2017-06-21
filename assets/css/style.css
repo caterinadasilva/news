@@ -214,12 +214,24 @@ header .box.pop:before {
     padding: 1em 0;
     color: #777;
 }
-#info .box h4 {
-	margin: 1em 0;
+#info .box .text > * {
+    display: inline-block;
+	margin: 0 0 1em;
 }
 #info .box img {
     max-height: 100px;
 }
+#info .box .image.big img {
+    max-height: initial;
+    margin: 0 0 1em;
+}
 .news-list {
     margin-bottom: 1em;
+}
+#info .box .text .date {
+    font-size: 90%;
+}
+#info .box .text h4 {
+    color: #444;
+    line-height: 1.4;
 }
